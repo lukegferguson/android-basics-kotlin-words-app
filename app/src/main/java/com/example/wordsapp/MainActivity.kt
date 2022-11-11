@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
     }
     /*set layout to list by default, but allow for user to switch with App Bar menu button
     Also sets LetterAdapter for both grid and list*/
+    // TODO figure out how to save layout preference after selecting a letter and going back, currently always reverts to list
     private var isLinearLayoutManager = true
     private fun chooseLayout(){
         if (isLinearLayoutManager){
